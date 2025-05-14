@@ -69,7 +69,7 @@ public class InicializarBaseDatos {
                 ('56789012E');
             """);
 
-            // ✅ Ejecutar todos los lotes
+     
             stmt.executeBatch();
             connection.commit();
 
